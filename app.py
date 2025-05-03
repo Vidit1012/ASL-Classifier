@@ -15,7 +15,7 @@ transform = transforms.Compose([
 ])
 
 st.set_page_config(page_title="ASL Classifier", layout="centered")
-st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>ASL Clsassifier</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>ASL Classifier</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Upload a handwritten American Sign Language letter (A–Y, excluding J and Z)</p>", unsafe_allow_html=True)
 st.markdown("---")
 
@@ -48,6 +48,6 @@ if uploaded_file is not None:
 
 st.markdown("---")
 st.markdown(
-    "<p style='text-align: center; font-size: 12px;'>Univeristy at Buffalo(Deep Learning- ASL classifier)</p>",
+    "<p style='text-align: center; font-size: 12px;'>University at Buffalo (Deep Learning 2025)</p>",
     unsafe_allow_html=True
 )
